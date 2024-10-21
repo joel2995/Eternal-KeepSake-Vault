@@ -1,0 +1,78 @@
+/* General Body Styles */
+body {
+    background-color: #f8f9fa; /* Light gray background for a clean look */
+    color: #343a40; /* Dark text color for contrast */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Container Styles */
+.container {
+    background: rgba(255, 255, 255, 0.9); /* White background for containers */
+    border-radius: 15px; /* Rounded corners */
+    padding: 30px; /* Padding inside the container */
+    margin-top: 50px; /* Space above the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+/* Heading Styles */
+h2 {
+    color: #007bff; /* Bootstrap primary color for headings */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* Remove button border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Input and Textarea Styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+textarea {
+    background-color: #ffffff; /* White background for inputs */
+    color: #343a40; /* Dark text for better readability */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ced4da; /* Light gray border */
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+/* Card Styles */
+.card {
+    background: #ffffff; /* White background for cards */
+    color: #343a40; /* Dark text color */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+    border: 1px solid #ced4da; /* Light gray border */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Scale effect on hover */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40; /* Dark background for the navbar */
+}
+
+.nav-link {
+    color: #ffffff; /* White color for navbar links */
+}
+
+.nav-link:hover {
+    color: #ffc107; /* Gold color on hover */
+}
+
+/* Error and Alert Messages */
+.alert {
+    border-radius: 5px; /* Rounded corners for alerts */
+}
